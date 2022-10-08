@@ -1,10 +1,15 @@
-import React from 'react';
-
+import {Container, Nav, Navbar} from 'react-bootstrap';
 const Menu = () => {
     return (
-        <div>
-            <h1>este es el menu</h1>
-        </div>
+        <Navbar bg="danger" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Cafeteria</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#features">Administrar</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
     );
 };
 
