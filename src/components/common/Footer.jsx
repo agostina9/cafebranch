@@ -1,9 +1,8 @@
-import React from 'react';
 
 const Footer = () => {
     return (
         <div>
-            <p>este es el footer</p>
+            <p className="p-5 bg-dark text-light text-center">&copy; Todos los derechos reservados</p>
         </div>
     );
 };
