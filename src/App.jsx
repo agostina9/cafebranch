@@ -7,12 +7,14 @@ import Footer from './components/common/Footer';
 import Menu from './components/common/Menu';
 import DetalleProducto from './components/views/DetalleProducto';
 import CrearProducto from './components/views/producto/CrearProducto';
+import EditarProducto from './components/views/producto/EditarProducto';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Inicio></Inicio>}></Route>
         <Route exact path="/crear" element={<CrearProducto></CrearProducto>}></Route>
+        <Route exact path="/editar" element={<EditarProducto></EditarProducto>}></Route>
         <Route exact path="/detalle" element={<DetalleProducto></DetalleProducto>}></Route>
         <Route exact path="/menu" element={<Menu></Menu>}></Route>
         <Route exact path="/footer" element={<Footer></Footer>}></Route>
