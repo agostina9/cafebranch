@@ -1,7 +1,16 @@
+import { useEffect, useState } from "react";
 import { Button, Container, Table } from "react-bootstrap";
 import ItemProducto from "./producto/ItemProducto";
+import consultarAPI from '../helpers/queries'
 
 const Administrador = () => {
+  const [productos, setProductos] = useState([])
+  useEffect(()=>{
+consultarAPI().then((respuesta)=>{
+console.log(respuesta)
+setProductos;
+})
+  },[])
     return (
       <Container className='mainSection'>
         <div className="d-flex justify-content-between">
@@ -21,7 +30,10 @@ const Administrador = () => {
         </tr>
       </thead>
       <tbody>
-     <ItemProducto></ItemProducto>
+        {
+          productos.map((producto)=><ItemProducto key={producto.id} producto={producto}></ItemProducto>)
+        }
+     
       </tbody>
     </Table>
       </Container>
