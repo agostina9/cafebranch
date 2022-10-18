@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Button, Container, Table } from "react-bootstrap";
 import ItemProducto from "./producto/ItemProducto";
 import {consultarAPI} from '../helpers/queries'
+import { Link } from "react-router-dom";
 
 const Administrador = () => {
   const [productos, setProductos] = useState([])
@@ -15,7 +16,7 @@ setProductos (respuesta);
       <Container className='mainSection'>
         <div className="d-flex justify-content-between">
         <h2 className="display-4 mt-4">Productos disponibles</h2>
-        <Button>Agregar</Button>
+        <Link className="btn btn-primary" to='/administrar/crear'>Agregar</Link>
         </div>
         <hr></hr>
         <Table striped bordered hover>
