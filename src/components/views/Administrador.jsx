@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { Button, Container, Table } from "react-bootstrap";
 import ItemProducto from "./producto/ItemProducto";
-import consultarAPI from '../helpers/queries'
+import {consultarAPI} from '../helpers/queries'
 
 const Administrador = () => {
   const [productos, setProductos] = useState([])
   useEffect(()=>{
 consultarAPI().then((respuesta)=>{
 console.log(respuesta)
-setProductos;
+setProductos (respuesta);
 })
   },[])
     return (
