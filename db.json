@@ -1,25 +1,39 @@
 {
-    "productos":[
-        {
-            "nombreProducto":"cafe",
-            "precio":"300",
-            "categoria":"bebida caliente",
-            "imagen":"https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "id":1
-        },
-        {
-            "nombreProducto":"brownie",
-            "precio":"250",
-            "categoria":"dulce",
-            "imagen":"https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "id":2
-        },
-        {
-            "nombreProducto":"licuado",
-            "precio":"350",
-            "categoria":"bebida fria",
-            "imagen":"https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "id":3
-        }
-    ]
+  "productos": [
+    {
+      "nombreProducto": "cafe",
+      "precio": "300",
+      "categoria": "bebida caliente",
+      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 1
+    },
+    {
+      "nombreProducto": "brownie",
+      "precio": "250",
+      "categoria": "dulce",
+      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 2
+    },
+    {
+      "nombreProducto": "licuado",
+      "precio": "350",
+      "categoria": "bebida fria",
+      "imagen": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 3
+    },
+    {
+      "nombreProducto": "burhue",
+      "precio": "58",
+      "imagen": "https://trello.com/1/cards/63129f9008e30200604e2487/attachments/6318d2c2021d7a0365baeb8a/previews/6318d2c3021d7a0365baeb92/download/cartoon_3.jpg",
+      "categoria": "salado",
+      "id": 4
+    },
+    {
+      "nombreProducto": "leche",
+      "precio": "120",
+      "imagen": "https://pics.filmaffinity.com/iron_man_3_aka_ironman_3-972235216-large.jpg",
+      "categoria": "bebida fria",
+      "id": 5
+    }
+  ]
 }
