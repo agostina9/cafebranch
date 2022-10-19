@@ -18,6 +18,7 @@ const CrearProducto = () => {
 
   const onSubmit = (datos) => {
     console.log(datos);
+    //enviar los datos a la api
     console.log("desde funcion submit");
   };
 
