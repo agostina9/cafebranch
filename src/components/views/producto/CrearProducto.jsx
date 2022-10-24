@@ -20,7 +20,7 @@ const CrearProducto = () => {
     },
   });
   //inicializar useNavigate
-  const navegacion = useNavigate(),
+  const navegacion = useNavigate()
 
   const onSubmit = (datos) => {
     console.log(datos);

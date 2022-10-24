@@ -34,6 +34,13 @@
       "imagen": "https://pics.filmaffinity.com/iron_man_3_aka_ironman_3-972235216-large.jpg",
       "categoria": "bebida fria",
       "id": 5
+    },
+    {
+      "nombreProducto": "medialuna",
+      "precio": "50",
+      "imagen": "https://trello.com/1/cards/63129f9008e30200604e2487/attachments/6318d2c2021d7a0365baeb8a/previews/6318d2c3021d7a0365baeb92/download/cartoon_3.jpg",
+      "categoria": "dulce",
+      "id": 6
     }
   ]
 }
